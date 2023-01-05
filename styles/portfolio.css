@@ -185,3 +185,31 @@ main{
     margin-top: 50px;
     text-align: center;
 }
+
+/* contact */
+.contact-title{
+    font-size: 30px;
+    color: #474747;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.c-discription{
+     margin: 25px 0;
+     font-size: 20px;
+}
+.contact{
+    margin: 50px 0;
+    display: flex;
+    gap: 50px;
+    background-color: #FFF8F3;
+    text-align: left;
+    padding: 130px 200px;
+}
+
+.contact input[type="text"], input[type="email"]  , textarea{
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    padding:18px 30px ;
+}
