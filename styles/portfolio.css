@@ -151,4 +151,30 @@ main{
 
 
 /* resume  */
-
+.resume-content{
+    display: flex;
+    gap: 20PX;
+}
+.resume{
+    margin-top: 30PX;
+    margin-bottom: 30PX;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10PX;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10PX;
+}
+.resume .discription{
+    color: #757575;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
